@@ -380,6 +380,19 @@ nav .right a span {
         font-size: 13px;
     }
 
+    .inheritance-section .cells .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 250px;
+        /* changed from 400px */
+        padding: 10px 20px;
+        margin: 10px;
+        border: 1.5px solid #d3d3d3;
+        border-radius: 5px;
+    }
+
     /* Contact Section */
     .contact-section {
         padding: 0 20px;
