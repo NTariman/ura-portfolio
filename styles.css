@@ -371,6 +371,15 @@ nav .right a span {
         /* text below image on mobile */
     }
 
+    /* Skill Inheritance Section */
+    .inheritance-section {
+        padding: 0 20px;
+    }
+
+    .inheritance-section .cells .cell span {
+        font-size: 13px;
+    }
+
     /* Contact Section */
     .contact-section {
         padding: 0 20px;
