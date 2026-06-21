@@ -206,12 +206,82 @@ nav .right a span {
 
 }
 
+/* SKILL INHERITANCE SECTION */
+.inheritance-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.inheritance-section h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.inheritance-section .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inheritance-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inheritance-section .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.inheritance-section .cells .cell img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.inheritance-section .cells .cell span {
+    font-size: 15px;
+}
+
 /* CONTACT SECTION */
+.contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
 
 .contact-section h2 {
     font-size: 35px;
     margin-bottom: 30px;
     text-align: center;
+}
+
+.contact-section .group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section .contact-details {
+    text-align: center;
+}
+
+.contact-section .contact-details p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-details i {
+    color: var(--link-color);
+    margin-right: 10px;
+    width: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -299,5 +369,14 @@ nav .right a span {
         padding-left: 0;
         justify-content: flex-start;
         /* text below image on mobile */
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 0 20px;
+    }
+
+    .contact-section .contact-details p {
+        font-size: 16px;
     }
 }
